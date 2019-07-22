@@ -3,7 +3,6 @@ function displayCharacter() {
         .then((resp) => resp.json()) // Transform the data into json
         .then(function (data) {
             console.log(data);
-
             const unorderedList = document.getElementById('skywalker-list');
 
             const properties = Object.keys(data);
